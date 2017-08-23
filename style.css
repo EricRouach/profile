@@ -11,14 +11,34 @@ h1, h2, h3 {
   text-align: center
 }
 
+
+a {
+  text-decoration: none;
+}
+
+#sidebar {
+  position: fixed;
+  width: 300px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgb(16,50,91);
+}
+
+#sidebar ul {
+  list-style-type: none;
+}
+
+
+#page-content {
+  margin-left: 300px;
+}
+
 .text-justify {
   text-align: justify;
   padding: 30px;
 }
 
-a {
-  text-decoration: none;
-}
 
 #name {
   color: rgb(183, 44, 81);
@@ -108,5 +128,20 @@ a {
   margin: -61px 28px 38px 295px;
   transform: rotate(200deg);
   width: 150px;
+}
+
+.icon {
+  color:white;
+  font-family: 'Roboto', sans-serif;
+  margin:30px;
+}
+
+#sidebar ul li {
+  padding: 30px 30px;
+  margin-top: 50px;
+}
+
+#test {
+  margin-left: 37px;
 }
 
