@@ -1,0 +1,89 @@
+body {
+  background-color: rgb(235,235,235);
+  font-family: 'Roboto', sans-serif;
+  color: rgb(100,100,100);
+}
+
+h1, h2 {
+  font-family: 'Merriweather', serif;
+  text-align: center
+}
+
+.text-justify {
+  text-align: justify;
+  padding: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#name {
+  color: #962632;
+  font-style: bold;
+}
+
+.square-content {
+  background-color: rgb(255,255,255);
+  padding: 30px;
+  margin: 20px auto;
+  width: 600px;
+  border-radius: 1%;
+  box-shadow: 2px 2px 3px rgb(190,190,190);
+  text-align:center;
+}
+
+.square-content p {
+  padding: 10px;
+}
+
+#image-circle {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  border: 2px solid #962632;
+}
+
+.image-squared {
+  width: 150px;
+}
+
+#btn-red {
+  width: 100px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-weight: bold;
+  background-color: #962632;
+  opacity:0.9;
+  text-align: center;
+  color: white;
+  margin: 100px;
+}
+
+#btn-red:hover {
+  background-color: #962632;
+  opacity:1;
+  box-shadow: 2px 2px 2px rgb(190,190,190);
+}
+
+#list-inline li {
+  display: inline-block;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
+#list-inline ul {
+  list-style-type: none;
+}
+
+.logo {
+  font-size: 25px;
+  color:rgb(190,190,190);
+}
+.logo i {
+  width: 60px;
+}
+.logo:hover {
+  color:#962632;
+}
+
