@@ -2,9 +2,11 @@ body {
   background-color: rgb(235,235,235);
   font-family: 'Roboto', sans-serif;
   color: rgb(100,100,100);
+  background-image: url('http://tremendouswallpapers.com/wp-content/uploads/2014/12/new-york-city-1.jpeg');
+  background-size: cover;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: 'Merriweather', serif;
   text-align: center
 }
@@ -19,7 +21,7 @@ a {
 }
 
 #name {
-  color: #962632;
+  color: rgb(183, 44, 81);
   font-style: bold;
 }
 
@@ -29,19 +31,27 @@ a {
   margin: 20px auto;
   width: 600px;
   border-radius: 1%;
-  box-shadow: 2px 2px 3px rgb(190,190,190);
+  box-shadow: 2px 2px 3px rgb(30,143,177);
   text-align:center;
 }
 
 .square-content p {
-  padding: 10px;
+  padding: 30px 30px;
+  letter-spacing: 1px;
 }
 
 #image-circle {
+  background-image: url("images/spongebob.jpg");
+  background-size:cover;
   border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  border: 2px solid #962632;
+  width: 150px;
+  height: 150px;
+  box-shadow: 2px 2px 3px rgb(255,255,255);
+  border: 2px solid rgb(183, 44, 81);
+}
+
+#image-circle:hover {
+  background-image: url("images/me.png");
 }
 
 .image-squared {
@@ -53,7 +63,7 @@ a {
   border-radius: 5px;
   padding: 10px 20px;
   font-weight: bold;
-  background-color: #962632;
+  background-color: rgb(183, 44, 81);
   opacity:0.9;
   text-align: center;
   color: white;
@@ -61,7 +71,7 @@ a {
 }
 
 #btn-red:hover {
-  background-color: #962632;
+  background-color: rgb(183, 44, 81);
   opacity:1;
   box-shadow: 2px 2px 2px rgb(190,190,190);
 }
@@ -78,12 +88,25 @@ a {
 
 .logo {
   font-size: 25px;
-  color:rgb(190,190,190);
+  color: rgb(170,170,170);
 }
 .logo i {
   width: 60px;
 }
 .logo:hover {
   color:#962632;
+}
+
+#uniq {
+  color: rgb(183, 44, 81);
+  position: relative;
+  margin: -66px -189px 2px 307px;
+}
+
+#arrow {
+  position: relative;
+  margin: -61px 28px 38px 295px;
+  transform: rotate(200deg);
+  width: 150px;
 }
 
